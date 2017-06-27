@@ -8,7 +8,7 @@ namespace Backend.Day1
     {
         static void Main(string[] args)
         {
-            Game g = new Game();
+            Game g = new Game(); 
             g.AddObject(new Tree("Oak", 1, 3));
             g.Player.Weapon = new Riffle(g.Player);
 
